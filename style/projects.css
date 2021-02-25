@@ -101,66 +101,11 @@ h1 {
     color: whitesmoke;
 }
 
-.Projects {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    margin-bottom: 5%;
-}
-
-#Mainphoto {
-    display: flex;
-    background: transparent;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('https://all4desktop.com/data_images/original/4237455-cool-pictures.jpg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-}
-
-.button {
-    padding: 10px;
-    background-color: rgb(56, 8, 8);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 10%;
-    text-decoration: none;
-}
-
 a {
     border-radius: 5px;
 }
 
-.Mainstuff {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.Mainelement {
-    width: 30%;
-    margin: 1%;
-}
-
-h3 {
-    font-weight: bold;
-    margin: 5%;
-}
-
-.button:hover {
-    Color: Green;
-    background-color: whitesmoke;
-}
-
 @media (max-width: 2000px) {
-    h3 {
-        font-size: 2rem;
-    }
 
     h1 {
         font-size: 5rem;
@@ -169,76 +114,8 @@ h3 {
     .links a {
         font-size: 1.75rem;
     }
-
-    .button {
-        font-size: 2rem;
-    }
 }
 
 @media (Max-width: 800px) {
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    .links a {
-        font-size: 1.5rem;
-        padding: 4%;
-    }
-
-    .button {
-        font-size: 1.5rem;
-    }
-
-    .Mainelement {
-        width: 45%;
-        margin: 2%;
-    }
-
-    .Navbar {
-        flex-direction: column;
-    }
-
-    .links {
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .links {
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    .links a {
-        font-size: 1.25rem;
-        padding: 4%;
-    }
     
-    .button {
-        font-size: 1.2rem;
-        padding: 2%;
-    }
-
-    h3 {
-        font-size: 1.3rem;
-        margin-bottom: 5%;
-    }
-
-    header {
-        background-color: black;
-    }
-
-    .mainpic {
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-        padding: 1%;
-    }
 }
